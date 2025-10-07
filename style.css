@@ -1,13 +1,46 @@
-/*Add your CSS here*/
+* {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
 
+h1 { 
+  font-size: 34px;
+}
 
+h2 {
+  color: rebeccapurple;
+}
 
+img {
+  width: 100vw;
+  height: auto;
+}
 
+.cap {
+  color: lightblue;
+}
 
+a:link {
+  color: darkseagreen;
+}
 
+a:visited {
+  color: beige;
+}
+a:hover {
+  color: darksalmon;
+}
 
+a:active{
+  color: cornflowerblue;
+}
 
-
+footer a: hover {
+  text-decoration: none;
+}
 /*No touch*/
 h1, h2, nav, .cap, footer {
   text-align: center;
